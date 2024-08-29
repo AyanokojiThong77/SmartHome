@@ -1,7 +1,10 @@
 :root {
     --color-primary:#1e5afa;
     --color-primary-variant:#575757;
-
+    --color-white: #fff;
+    --color-light: #f4f4f4;
+    --color-black:#000f37;
+    --color-dark:#575757;
     --bottom-section-padding:12rem;
     --bottom-section-padding-mobiele:8rem;
 
@@ -45,4 +48,9 @@ body {
     width: var(--container-width-lg);
     max-width: 1920px;
     margin: 0 auto;
+}
+h1 {
+    font-size: 5.6rem;
+    line-height: 1;
+    color: var(--color-black);
 }

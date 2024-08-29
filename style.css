@@ -1,0 +1,22 @@
+:root {
+    --color-primary:#1e5afa;
+    --color-primary-variant:#575757;
+
+    --bottom-section-padding:12rem;
+    --bottom-section-padding-mobiele:8rem;
+
+    --transition:all 400ms ease;
+
+    --container-width-lg:76%;
+    --container-width-md:90%;
+    --container-width-sm:94%;
+
+    --container-width-xs:100%;
+    --container-width-xs-max:540px;
+    --container-width-sm-max:720px;
+    --container-width-md-max:960px;
+    --container-width-lg-max:1140px;
+    --container-width-xl-max:1320px;
+    --container-width-xxl-max:1536px;
+
+}

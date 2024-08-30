@@ -1,28 +1,29 @@
 :root {
-    --color-primary:#1e5afa;
-    --color-primary-variant:#575757;
+    --color-primary: #1e5afa;
+    --color-primary-variant: #575757;
     --color-white: #fff;
     --color-light: #f4f4f4;
-    --color-black:#000f37;
-    --color-dark:#575757;
-    --bottom-section-padding:12rem;
-    --bottom-section-padding-mobiele:8rem;
+    --color-black: #000f37;
+    --color-dark: #575757;
+    --bottom-section-padding: 12rem;
+    --bottom-section-padding-mobiele: 8rem;
 
-    --transition:all 400ms ease;
+    --transition: all 400ms ease;
 
-    --container-width-lg:76%;
-    --container-width-md:90%;
-    --container-width-sm:94%;
+    --container-width-lg: 76%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
 
-    --container-width-xs:100%;
-    --container-width-xs-max:540px;
-    --container-width-sm-max:720px;
-    --container-width-md-max:960px;
-    --container-width-lg-max:1140px;
-    --container-width-xl-max:1320px;
-    --container-width-xxl-max:1536px;
+    --container-width-xs: 100%;
+    --container-width-xs-max: 540px;
+    --container-width-sm-max: 720px;
+    --container-width-md-max: 960px;
+    --container-width-lg-max: 1140px;
+    --container-width-xl-max: 1320px;
+    --container-width-xxl-max: 1536px;
 
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +33,7 @@
     text-decoration: none;
     list-style: none;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -44,13 +46,66 @@ body {
     font-size: 16px;
     line-height: 1.7;
 }
+
 .container {
     width: var(--container-width-lg);
     max-width: 1920px;
     margin: 0 auto;
 }
+
 h1 {
     font-size: 5.6rem;
     line-height: 1;
     color: var(--color-black);
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.lead {
+    width: 63%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 1.5rem auto 3rem;
+
+}
+
+a {
+    color: var(--color-white);
+    font-weight: 300;
+
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.3rem;
+    background: var(--color-white);
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 0.4rem;
+    transition: all 300ms ease;
+}
+
+.btn-primary {
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
+.btn-primary:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+    border-color: transparent;
 }
